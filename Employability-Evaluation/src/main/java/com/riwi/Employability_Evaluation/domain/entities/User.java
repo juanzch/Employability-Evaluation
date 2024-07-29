@@ -27,6 +27,8 @@ public class User {
     @GeneratedValue(strategy = GenerationType.UUID)
      private String id;
     @Column(nullable = false)
+    private String name;
+    @Column(nullable = false)
      private String phone;
     @Column(nullable = false)
      private String email;
