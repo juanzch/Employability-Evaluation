@@ -1,0 +1,14 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Spring Boot-EmployabilityEvaluationApplication<Employability-Evaluation>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.riwi.Employability_Evaluation.EmployabilityEvaluationApplication",
+      "projectName": "Employability-Evaluation",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
+}
