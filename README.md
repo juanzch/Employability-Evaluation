@@ -28,9 +28,9 @@ We've implemented eight different access points (endpoints) to interact with thi
 
 1. For registering new users.
 2. To create new coupons.
-3. To modify existing coupons.
-4. To remove coupons that have not been used.
-5. To check if a coupon is valid.
+3. To list coupons.
+4. To modify existing coupons.
+5. To remove coupons that have not been used.
 6. To use (redeem) a coupon.
 7. To view a history of all coupons used by a specific user.
 8. To display a list of all products.
