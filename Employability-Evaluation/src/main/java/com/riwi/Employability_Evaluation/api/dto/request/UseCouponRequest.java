@@ -12,7 +12,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class UseCouponRequest{
-      private LocalDate dueDate;
+    private LocalDate dueDate;
     private double discount;
     private String user_id;
     private String product_id;
