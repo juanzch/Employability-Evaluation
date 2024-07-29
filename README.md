@@ -20,8 +20,12 @@ mvn clean install mvn spring-boot:run
 
 http://localhost:8080/api/v1/swagger-ui/index.html
 
-## Diagrama
+## Diagram
 
 <p align="center">
     <img src="/img/image.png">
+</p>
+
+<p align="center">
+    <img src="/img/Domain.png">
 </p>
