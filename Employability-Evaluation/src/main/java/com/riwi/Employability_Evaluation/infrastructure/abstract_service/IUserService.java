@@ -4,5 +4,5 @@ import com.riwi.Employability_Evaluation.api.dto.request.UserRequest;
 import com.riwi.Employability_Evaluation.api.dto.response.CouponResponse;
 import com.riwi.Employability_Evaluation.api.dto.response.UserResponse;
 
-public interface IUserService extends Create<UserRequest, UserResponse>,Get<CouponResponse,String>{
+public interface IUserService extends Create<UserRequest, UserResponse>{
 }
