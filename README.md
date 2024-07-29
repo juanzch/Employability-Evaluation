@@ -23,5 +23,5 @@ http://localhost:8080/api/v1/swagger-ui/index.html
 ## Diagrama
 
 <p align="center">
-    <img src="/img/imagen.png">
+    <img src="img/imagen.png">
 </p>
