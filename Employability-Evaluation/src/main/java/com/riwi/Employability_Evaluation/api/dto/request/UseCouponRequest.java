@@ -16,5 +16,4 @@ public class UseCouponRequest{
     private double discount;
     private String user_id;
     private String product_id;
-    
 }
