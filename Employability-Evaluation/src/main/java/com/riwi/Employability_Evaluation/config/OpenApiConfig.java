@@ -7,8 +7,7 @@ import io.swagger.v3.oas.annotations.OpenAPIDefinition;
 import io.swagger.v3.oas.annotations.info.Info;
 
 @Configuration
-@OpenAPIDefinition(info = @Info(title = "Api para la  Gestión y Redención de Cupones ", version = "S.0", description = "Esta api fue creada para gestionar de manera eficiente los cupones, usuarios y productos\n" +
-        "del ecommerce de RIWI."))
+@OpenAPIDefinition(info = @Info(title = "API for Coupon Management and Redemption", version = "S.0", description = "This API was created to efficiently manage RIWI ecommerce coupons, users and products."))
 public class OpenApiConfig {
 
 }
