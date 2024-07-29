@@ -24,14 +24,15 @@ import lombok.ToString;
 @AllArgsConstructor
 public class User {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.UUID)
      private String id;
     @Column(nullable = false)
      private String phone;
     @Column(nullable = false)
      private String email;
+
     @ToString.Exclude
     @EqualsAndHashCode.Exclude
     @OneToMany(fetch = FetchType.EAGER, mappedBy = "user",cascade = CascadeType.ALL, orphanRemoval = false)
-    private List<Coupon>coupons;
+    private List<Coupon> coupons;
 }
